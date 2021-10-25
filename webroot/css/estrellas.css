@@ -1,0 +1,14 @@
+.rating {
+	direction: rtl;
+	unicode-bidi: bidi-override;
+	color: #b5b5b5; 
+}
+.rating input {
+	display: none;
+}
+.rating label:hover,
+.rating label:hover ~ label,
+.rating input:checked + label,
+.rating input:checked + label ~ label {
+	color: #daa300;
+}
